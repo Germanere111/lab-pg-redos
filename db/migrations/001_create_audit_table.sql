@@ -9,3 +9,4 @@ CREATE TABLE IF NOT EXISTS audit_log (
 );
 
 COMMENT ON TABLE audit_log IS 'Журнал аудита изменений данных';
+COMMENT ON COLUMN audit_log.actor IS 'Кто выполнил действие';
