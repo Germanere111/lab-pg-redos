@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS audit_log (
 	target_table text NOT NULL,
 	old_data jsonb,
 	new_data jsonb,
-	actor text NOT  NULL,
+	actor text NOT NULL,
 	occurred_at timestamp NOT NULL DEFAULT now()
 );
 
